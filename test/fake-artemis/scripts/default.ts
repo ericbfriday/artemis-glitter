@@ -1,0 +1,1 @@
+export { SCRIPTS } from "../server";

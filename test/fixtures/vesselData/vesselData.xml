@@ -1,0 +1,28 @@
+<vesselData version="2.1">
+  <hullRace ID="0" name="Player">
+    <taunt text="Come and get me!" cooldown="5000" trigger="4"/>
+    <taunt text="You can't catch me!" cooldown="5000" trigger="5"/>
+  </hullRace>
+  <hullRace ID="1" name="Torgoth">
+    <taunt text="Die human!" cooldown="5000" trigger="4"/>
+  </hullRace>
+  <vessel uniqueID="0" classname="Scout" side="0">
+    <internal_data file="dat/snt/player_ship_1.snt"/>
+    <shields front="80" back="60"/>
+    <performance turnRate="0.008" topSpeed="1.2" boost="1.5"/>
+    <beam_port damage="1" arcWidth="0.5" cycletime="0.5" range="1000"/>
+    <beam_port damage="1" arcWidth="0.5" cycletime="0.5" range="1000"/>
+    <torpedo_tube x="0" y="0" z="0"/>
+    <torpedo_storage type="0" amount="20"/>
+    <torpedo_storage type="1" amount="10"/>
+    <engine_port x="0" y="0" z="-2"/>
+    <long_desc text="Light scout vessel"/>
+  </vessel>
+  <vessel uniqueID="1" classname="Cruiser" side="1">
+    <shields front="120" back="100"/>
+    <beam_port damage="2" arcWidth="0.6" cycletime="0.4" range="1200"/>
+    <torpedo_storage type="0" amount="50"/>
+    <engine_port x="1" y="0" z="-3"/>
+    <long_desc text="Heavy cruiser"/>
+  </vessel>
+</vesselData>

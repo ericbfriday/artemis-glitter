@@ -1,0 +1,7 @@
+{
+  "note": "First 30 bytes of a 32-byte destroyObject packet. Last 2 bytes are missing.",
+  "fullPacket": {
+    "type": 1,
+    "id": 99
+  }
+}

@@ -1,0 +1,19 @@
+# Legacy static assets (not yet migrated)
+public/
+
+# Build output
+**/dist/
+
+# Non-code files
+*.toml
+*.bin
+*.lock
+*.yaml
+*.yml
+.editorconfig
+docs/
+.sisyphus/
+.serena/
+test/fixtures/
+test/baselines/
+README.md

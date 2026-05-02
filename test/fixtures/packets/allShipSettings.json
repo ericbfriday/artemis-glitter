@@ -1,0 +1,50 @@
+{
+  "0": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": "Artemis"
+  },
+  "1": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  },
+  "2": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  },
+  "3": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  },
+  "4": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  },
+  "5": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  },
+  "6": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  },
+  "7": {
+    "shipType": 0,
+    "driveType": 0,
+    "unknown": 0,
+    "name": ""
+  }
+}

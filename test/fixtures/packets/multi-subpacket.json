@@ -1,0 +1,20 @@
+{
+  "packets": [
+    {
+      "subtype": 1,
+      "name": "playerUpdate",
+      "data": {
+        "id": 1,
+        "energy": 800
+      }
+    },
+    {
+      "subtype": 1,
+      "name": "playerUpdate",
+      "data": {
+        "id": 2,
+        "energy": 600
+      }
+    }
+  ]
+}

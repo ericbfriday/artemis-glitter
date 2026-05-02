@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@artemis-glitter/protocol": ["packages/protocol/src/index.ts"],
+      "@artemis-glitter/protocol/*": ["packages/protocol/src/*"],
+      "@artemis-glitter/domain": ["packages/domain/src/index.ts"],
+      "@artemis-glitter/domain/*": ["packages/domain/src/*"],
+      "@artemis-glitter/shared": ["packages/shared/src/index.ts"],
+      "@artemis-glitter/shared/*": ["packages/shared/src/*"],
+      "@artemis-glitter/config": ["packages/config/src/index.ts"],
+      "@artemis-glitter/config/*": ["packages/config/src/*"]
+    }
+  },
+  "include": [
+    "apps/server/src",
+    "apps/web/src",
+    "packages/protocol/src",
+    "packages/domain/src",
+    "packages/shared/src",
+    "packages/config/src",
+    "test"
+  ]
+}

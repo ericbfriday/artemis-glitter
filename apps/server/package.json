@@ -1,0 +1,20 @@
+{
+  "name": "@artemis-glitter/server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun"
+  },
+  "dependencies": {
+    "@artemis-glitter/protocol": "workspace:*",
+    "@artemis-glitter/domain": "workspace:*",
+    "@artemis-glitter/shared": "workspace:*",
+    "@artemis-glitter/config": "workspace:*",
+    "zod": "^4.4.2"
+  }
+}

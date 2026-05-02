@@ -1,27 +1,31 @@
 {
-    "name": "artemis-glitter"
-  , "main": "server-page.html"
-  , "version": "0.4.0"
-  , "private": true
-  , "window": {
-    "toolbar": false
-    , "width": 800
-    , "height": 600
-  }
-  , "devDependencies": {
-      "grunt": "latest"
-    , "grunt-node-webkit-builder": "latest"
-    , "grunt-zip": "latest"
-    , "grunt-contrib-copy": "latest"
-  }
-  , "dependencies": {
-      "express": "3.x"
-    , "ejs": ">= 0.0.1"
-    , "node-bitarray": ">= 0.0.2"
-    , "socket.io": ">= 1.0.6"
-    , "opener": ">= 1.3.0"
-    , "config": "latest"
-    , "node-xml-lite": ">=0.0.3"
-    , "js-yaml": ">=3.0.0"
+  "name": "artemis-glitter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun --filter '@artemis-glitter/server' dev",
+    "build": "bun run --filter='*' build",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/bun": "latest",
+    "eslint": "^10.3.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "prettier": "^3.8.3",
+    "typescript": "^5.4.0",
+    "typescript-eslint": "^8.59.1"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
   }
 }

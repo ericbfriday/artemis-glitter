@@ -1,0 +1,13 @@
+{
+  "column": 1,
+  "stats": [
+    {
+      "count": 10,
+      "label": "Enemies Destroyed"
+    },
+    {
+      "count": 5,
+      "label": "Mines Swept"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[install]
+frozenLockfile = true
+
+[install.cache]
+disable = false

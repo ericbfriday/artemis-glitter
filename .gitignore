@@ -19,3 +19,4 @@ dat/*
 config/runtime.json
 *~
 cache
+dist/

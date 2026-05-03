@@ -20,3 +20,4 @@ config/runtime.json
 *~
 cache
 dist/
+**/.DS_Store
